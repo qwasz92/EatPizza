@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         val myAdapter = MainAdapter(launchCreatorActivity)
+        recyclerView.adapter = myAdapter
     }
 }
