@@ -8,13 +8,13 @@
         android:title="Delete"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/edit_name"
-        android:icon="@drawable/ic_edit"
-        android:title="Edit"
-        app:showAsAction="ifRoom" />
-    <item
         android:id="@+id/save"
         android:icon="@drawable/ic_edit"
         android:title="Save"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/edit_name"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit"
         app:showAsAction="ifRoom" />
 </menu>
